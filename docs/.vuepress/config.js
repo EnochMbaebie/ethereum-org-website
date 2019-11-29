@@ -110,175 +110,19 @@ module.exports = {
         { text: translate('page-enterprise'), link: '/enterprise/' }
       ]
     },
-    '/de/': {
-      lang: 'de',
-      label: translate('name', 'de'),
-      title: translate('ethereum', 'de'),
+    '/ig/': {
+      lang: 'igbo',
+      label: translate('name', 'igbo'),
+      title: translate('ethereum', 'igbo'),
       nav: [
-        { text: translate('page-home', 'de'), link: '/de/' },
-        { text: translate('page-beginners', 'de'), link: '/de/beginners/' },
-        { text: translate('page-use', 'de'), link: '/de/use/' },
-        { text: translate('page-learn', 'de'), link: '/de/learn/' },
-        { text: translate('page-developers', 'de'), link: '/de/developers/' }
+        { text: translate('page-home', 'igbo'), link: '/ig/' },
+        { text: translate('page-beginners', 'igbo'), link: '/ig/beginners/' },
+        { text: translate('page-use', 'igbo'), link: '/ig/use/' },
+        { text: translate('page-learn', 'igbo'), link: '/ig/learn/' },
+        { text: translate('page-developers', 'igbo'), link: '/ig/developers/' }
       ]
     },
-    '/el/': {
-      lang: 'el',
-      label: translate('name', 'el'),
-      title: translate('ethereum', 'el'),
-      nav: [
-        { text: translate('page-home', 'el'), link: '/el/' },
-        { text: translate('page-beginners', 'el'), link: '/el/beginners/' },
-        { text: translate('page-use', 'el'), link: '/el/use/' },
-        { text: translate('page-learn', 'el'), link: '/el/learn/' },
-        { text: translate('page-developers', 'el'), link: '/el/developers/' }
-      ]
-    },
-    '/es/': {
-      lang: 'es-EM',
-      label: translate('name', 'es-EM'),
-      title: translate('ethereum', 'es-EM'),
-      nav: [
-        { text: translate('page-home', 'es-EM'), link: '/es/' },
-        { text: translate('page-beginners', 'es-EM'), link: '/es/beginners/' },
-        { text: translate('page-use', 'es-EM'), link: '/es/use/' },
-        { text: translate('page-learn', 'es-EM'), link: '/es/learn/' },
-        { text: translate('page-developers', 'es-EM'), link: '/es/developers/' }
-      ]
-    },
-    '/fr/': {
-      lang: 'fr',
-      label: translate('name', 'fr'),
-      title: translate('ethereum', 'fr'),
-      nav: [
-        { text: translate('page-home', 'fr'), link: '/fr/' },
-        { text: translate('page-beginners', 'fr'), link: '/fr/beginners/' },
-        { text: translate('page-use', 'fr'), link: '/fr/use/' },
-        { text: translate('page-learn', 'fr'), link: '/fr/learn/' },
-        { text: translate('page-developers', 'fr'), link: '/fr/developers/' }
-      ]
-    },
-    '/it/': {
-      lang: 'it',
-      label: translate('name', 'it'),
-      title: translate('ethereum', 'it'),
-      nav: [
-        { text: translate('page-home', 'it'), link: '/it/' },
-        { text: translate('page-beginners', 'it'), link: '/it/beginners/' },
-        { text: translate('page-use', 'it'), link: '/it/use/' },
-        { text: translate('page-learn', 'it'), link: '/it/learn/' },
-        { text: translate('page-developers', 'it'), link: '/it/developers/' }
-      ]
-    },
-    '/ja/': {
-      lang: 'ja',
-      label: translate('name', 'ja'),
-      title: translate('ethereum', 'ja'),
-      nav: [
-        { text: translate('page-home', 'ja'), link: '/ja/' },
-        { text: translate('page-beginners', 'ja'), link: '/ja/beginners/' },
-        { text: translate('page-use', 'ja'), link: '/ja/use/' },
-        { text: translate('page-learn', 'ja'), link: '/ja/learn/' },
-        { text: translate('page-developers', 'ja'), link: '/ja/developers/' }
-      ]
-    },
-    '/ko/': {
-      lang: 'ko',
-      label: translate('name', 'ko'),
-      title: translate('ethereum', 'ko'),
-      nav: [
-        { text: translate('page-home', 'ko'), link: '/ko/' },
-        { text: translate('page-beginners', 'ko'), link: '/ko/beginners/' },
-        { text: translate('page-use', 'ko'), link: '/ko/use/' },
-        { text: translate('page-learn', 'ko'), link: '/ko/learn/' },
-        { text: translate('page-developers', 'ko'), link: '/ko/developers/' }
-      ]
-    },
-    '/nl/': {
-      lang: 'nl',
-      label: translate('name', 'nl'),
-      title: translate('ethereum', 'nl'),
-      nav: [
-        { text: translate('page-home', 'nl'), link: '/nl/' },
-        { text: translate('page-beginners', 'nl'), link: '/nl/beginners/' },
-        { text: translate('page-use', 'nl'), link: '/nl/use/' },
-        { text: translate('page-learn', 'nl'), link: '/nl/learn/' },
-        { text: translate('page-developers', 'nl'), link: '/nl/developers/' }
-      ]
-    },
-    '/pl/': {
-      lang: 'pl',
-      label: translate('name', 'pl'),
-      title: translate('ethereum', 'pl'),
-      nav: [
-        { text: translate('page-home', 'pl'), link: '/pl/' },
-        { text: translate('page-beginners', 'pl'), link: '/pl/beginners/' },
-        { text: translate('page-use', 'pl'), link: '/pl/use/' },
-        { text: translate('page-learn', 'pl'), link: '/pl/learn/' },
-        { text: translate('page-developers', 'pl'), link: '/pl/developers/' }
-      ]
-    },
-    '/sk/': {
-      lang: 'sk',
-      label: translate('name', 'sk'),
-      title: translate('ethereum', 'sk'),
-      nav: [
-        { text: translate('page-home', 'sk'), link: '/sk/' },
-        { text: translate('page-beginners', 'sk'), link: '/sk/beginners/' },
-        { text: translate('page-use', 'sk'), link: '/sk/use/' },
-        { text: translate('page-learn', 'sk'), link: '/sk/learn/' },
-        { text: translate('page-developers', 'sk'), link: '/sk/developers/' }
-      ]
-    },
-    '/sl/': {
-      lang: 'sl',
-      label: translate('name', 'sl'),
-      title: translate('ethereum', 'sl'),
-      nav: [
-        { text: translate('page-home', 'sl'), link: '/sl/' },
-        { text: translate('page-beginners', 'sl'), link: '/sl/beginners/' },
-        { text: translate('page-use', 'sl'), link: '/sl/use/' },
-        { text: translate('page-learn', 'sl'), link: '/sl/learn/' },
-        { text: translate('page-developers', 'sl'), link: '/sl/developers/' }
-      ]
-    },
-    '/ru/': {
-      lang: 'ru',
-      label: translate('name', 'ru'),
-      title: translate('ethereum', 'ru'),
-      nav: [
-        { text: translate('page-home', 'ru'), link: '/ru/' },
-        { text: translate('page-beginners', 'ru'), link: '/ru/beginners/' },
-        { text: translate('page-use', 'ru'), link: '/ru/use/' },
-        { text: translate('page-learn', 'ru'), link: '/ru/learn/' },
-        { text: translate('page-developers', 'ru'), link: '/ru/developers/' }
-      ]
-    },
-    '/zh/': {
-      lang: 'zh-CN',
-      label: translate('name', 'zh-CN'),
-      title: translate('ethereum', 'zh-CN'),
-      nav: [
-        { text: translate('page-home', 'zh-CN'), link: '/zh/' },
-        { text: translate('page-beginners', 'zh-CN'), link: '/zh/beginners/' },
-        { text: translate('page-use', 'zh-CN'), link: '/zh/use/' },
-        { text: translate('page-learn', 'zh-CN'), link: '/zh/learn/' },
-        { text: translate('page-developers', 'zh-CN'), link: '/zh/developers/' }
-      ]
-    },
-    '/fa/': {
-      lang: 'fa',
-      label: translate('name', 'fa'),
-      title: translate('ethereum', 'fa'),
-      nav: [
-        { text: translate('page-home', 'fa'), link: '/fa/' },
-        { text: translate('page-beginners', 'fa'), link: '/fa/beginners/' },
-        { text: translate('page-use', 'fa'), link: '/fa/use/' },
-        { text: translate('page-learn', 'fa'), link: '/fa/learn/' },
-        { text: translate('page-developers', 'fa'), link: '/fa/developers/' }
-      ]
-    }
-  },
+  
   plugins: [
     [
       '@vuepress/last-updated',
